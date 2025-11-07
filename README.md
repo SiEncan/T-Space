@@ -1,76 +1,85 @@
-How to run this app:
-- composer i
-- npm i
-- php artisan key:generate
-- create a database with the name "taruma_space"
-- php artisan migrate
-- php artisan storage:link
-- npm run dev
-- php artisan serve
+# 💬 T-Space
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+T-Space is a **simple online forum/message board** built using **Laravel**.  
+The project serves as a communication platform for **Tarumanagara University students** to share ideas, discuss topics, and connect with one another.  
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![Preview](./public/images/tspace-home.png)
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## ✨ Description
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+This application was developed as part of the **final project (UAS)** for the **Back-End Programming** course.  
+In this course, I received the topic **"Simple Online Forum / Message Board"**, where I was required to design and implement a forum system using **Laravel**.  
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+As this project was created during my **second semester**, it mainly focuses on learning fundamental **back-end development concepts** such as:
+- CRUD (Create, Read, Update, Delete) operations  
+- MVC (Model–View–Controller) architecture    
+- Database migration and seeding  
+- Authentication and route protection  
+- Blade templating for frontend rendering  
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 💡 Key Features
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- 💬 Create and reply to discussion threads  
+- 🔐 Basic user authentication (login/register)  
+- ✏️ Users can manage their own posts and comments (create, edit, delete)  
+- 👤 Profile management with photo upload stored in **local storage**  
+- 🎨 Clean and responsive Blade-based frontend  
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🧰 Tech Stack
 
-### Premium Partners
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Blade](https://img.shields.io/badge/Blade_Template-E34F26?style=for-the-badge&logo=laravel&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+---
 
-## Contributing
+## 🧠 What I Learned
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Through developing **T-Space**, I learned the fundamentals of:
+- Building RESTful applications with **Laravel**  
+- Implementing **MVC (Model–View–Controller)** structure  
+- Managing data with **Eloquent ORM** and **migrations**  
+- Setting up **user authentication** and middleware  
+- Designing simple yet consistent **frontend layouts using Blade and Bootstrap**  
+- Connecting and structuring databases with **MySQL**  
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🚀 Getting Started
 
-## Security Vulnerabilities
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/SiEncan/uas-backend-kelompok3.git
+cd t-space
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 2️⃣ Install dependencies
+```bash
+composer install
+npm install
+```
 
-## License
+### 3️⃣ Copy and configure environment variables
+```bash
+cp .env.example .env
+php artisan key:generate
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 4️⃣ Run migrations
+```bash
+php artisan migrate
+```
+
+### 5️⃣ Start the development server
+```bash
+php artisan serve
+```
