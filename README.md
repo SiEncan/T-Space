@@ -3,7 +3,9 @@
 T-Space is a **simple online forum/message board** built using **Laravel**.  
 The project serves as a communication platform for **Tarumanagara University students** to share ideas, discuss topics, and connect with one another.  
 
-![Preview](./public/images/tspace-home.png)
+![Preview](./public/images/tspace-home.png)  
+For full documentation including images and videos, you can visit my portfolio:  
+[Click Me!](https://portfolio-adnanalvito.vercel.app/projects/4)
 
 ---
 
